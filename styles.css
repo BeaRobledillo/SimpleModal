@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+main {
+    background-image: url(fondo.jpg);
+    text-align: center;
+    color: black;
+    height: 80vh;
+}
+
+h2 {
+    padding: 50px;
+}
+
+button {
+    background-color: lightblue;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+h1,
+small {
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.842);
+    height: 100vh;
+}
+
+.modal-box {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    color: black;
+    background-color: white;
+}
+
+section h3 {
+    margin-top: 20%;
+}
+
+.modal-button {
+    float: right;
+}
